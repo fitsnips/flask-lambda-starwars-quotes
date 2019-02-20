@@ -4,3 +4,8 @@ bin
 include
 lib
 man
+# ignoreing our zappa_settings file, as this code being published as a how to
+# and the presence of the file will just cause issues for others.
+# if this was a code repo for a real project I would check it in, I do not see
+# any sensative info at this time
+zappa_settings.json
